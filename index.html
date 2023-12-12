@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FixCom</title>
+    <link rel="icon" href="images/wrench-solid (1).svg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+<!-- header starts -->
+<header class="header" id="Головна">
+
+    <div class="header-1">
+        <a href="#" class="logo"><i class="fa-solid fa-wrench"></i>FixCom</a>
+
+
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="Введіть текст..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="icons">
+            <div id="search-btn" class="fas fa-search"></div>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <div id="login-btn" class="fas fa-user"></div>
+        </div>
+
+
+    </div>
+
+    <div class="header-2">
+            <nav class="navbar">
+                <a href="#Головна">Головна</a>
+                <a href="#Послуги">Послуги</a>
+                <a href="#Товари">Товари</a>
+                <a href="#Відгуки">Відгуки</a>
+                
+
+            </nav>
+    </div>
+    
+</header>
+<!-- header ends -->
+
+<!-- bottom navbar starts -->
+<nav class="bottom-navbar">
+    <a href="#Головна" class="fas fa-home"></a>
+    <a href="#Послуги" class="fas fa-list"></a>
+    <a href="#Товари"  class="fas fa-tags"></a>
+    <a href="#Відгуки" class="fas fa-comments"></a>
+</nav>
+<!-- bottom navbar ends -->
+
+<!-- login form starts -->
+<div class="login-form-container">
+
+    <div id="close-login-btn" class="fas fa-times"></div>
+
+    <form action="">
+
+        <h3>Вхід</h3>
+        <span>Ім'я</span>
+        <input type="email" name="" class="box"      placeholder="Введіть свій email" id="">
+        <span>Пароль</span>
+        <input type="password"name="" class="box"  placeholder="Введіть свій пароль" id="">
+        <div class="checkbox">
+            <input type="checkbox" name="" id="Запам'ятати мене">
+            <label for="remember-me">Запам'ятати мене</label>
+
+        </div>   
+        <input type="submit" value="sign in" class="btn">
+        <p><a href="#">Забули пароль ?</a></p>
+        <p>  <a href="#">Немає аккаунта ?</a></p>
+    </form>
+
+</div>
+<!-- login form ends -->
+
+<!-- home section starts -->
+
+<section class="home" id="">
+
+    <div class="row">
+
+        <div class="content">
+            <h3>Знижка до 40%</h3>
+            <p>З 01.12.23-01.01.24 новим клієнтам знижка - 40% на першу покупку. Запросіть друга , та отримайте ще додаткові 5% знижки! Акція  лише для авторизованих осіб.</p>
+            <a href="#" class="btn">Отримати знижку</a>
+        </div>
+
+        <div class="swiper books-slider">
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-wrapper">
+                <a href="#" class="swiper-slide"><img src="images/carousel1.png" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="images/carousel2.png" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="images/carousel3.png" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="images/carousel4.png" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="images/carousel5.png" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="images/carousel6.png" alt=""></a>
+            </div>
+
+            <div class="swiper-pagination"></div>
+         
+        </div>
+
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- icon section starts -->
+
+<section class="icons-container">
+
+    <div class="icons">
+        <i class="fas fa-truck"></i>
+        <div class="content">
+            <h3>Безкоштовна доставка</h3>
+            <p>На замовлення від 499₴</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-lock"></i>
+        <div class="content">
+            <h3>Гарантійний платіж</h3>
+            <p>100% гарантійний платіж</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-redo-alt"></i>
+        <div class="content">
+            <h3>Легке повернення</h3>
+            <p>10 днів повернення</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-headset"></i>
+        <div class="content">
+            <h3>24/7 Підтримка</h3>
+            <p>Напишіть нам</p>
+        </div>
+    </div>
+
+</section>
+
+<!-- icon section ends -->
+
+<!-- services section starts -->
+
+<section class="services" id="Послуги">
+
+    <h1 class="heading"> <span>Послуги</span></h1>
+
+    <div class="swiper services-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/pop_cart.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Ремонт ПК</h3>
+                    <div class="price">Від 100₴ <span>До 10000₴ </span></div>
+                    <a href="#" class="btn">Детальніше</a>
+                </div>
+            </div>
+            
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/pop_cart2.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Діагностика ПК</h3>
+                    <div class="price">Від 200₴ <span>До 20000₴ </span></div>
+                    <a href="#" class="btn">Детальніше</a>
+                </div>
+            </div>
+            
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/pop_cart3.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Установка O.C </h3>
+                    <div class="price">Від 1000₴ <span>До 3500₴ </span></div>
+                    <a href="#" class="btn">Детальніше</a>
+                </div>
+            </div>
+            
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/pop_cart4.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Встановлення MS</h3>
+                    <div class="price">Від 100₴ <span>До 500₴ </span></div>
+                    <a href="#" class="btn">Детальніше</a>
+                </div>
+            </div>
+            
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/pop_cart5.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Заміна відеокарти</h3>
+                    <div class="price">Від 3000₴ <span>До 9500₴ </span></div>
+                    <a href="#" class="btn">Детальніше</a>
+                </div>
+            </div>
+            
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/pop_cart6.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Заміна  диска</h3>
+                    <div class="price">Від 1000₴ <span>До 5500₴ </span></div>
+                    <a href="#" class="btn">Детальніше</a>
+                </div>
+            </div>
+           
+
+
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        
+    </div>
+
+</section>
+
+<section class="services-2">
+
+    <h1 class="heading-2"><span>Всі послуги</span></h1>
+
+    <div class="services-container">
+
+        <table class="services-table">
+            <thead>
+                <tr>
+                    <th class="tab2">Вид роботи</th>
+                    <th class="numeric-value">Вартість, грн</th>
+                </tr>
+            </thead>
+            <tbody>
+    
+                <tr class="tab">
+                    <td>Діагностика</td>
+                    <td class="numeric-value">150</td>
+                </tr>
+                <tr>
+                    <td>Встановлення Windows</td>
+                    <td class="numeric-value">400</td>
+                </tr>
+                <tr class="tab">
+                    <td>Встановлення програм(MS)</td>
+                    <td class="numeric-value">200</td>
+                </tr>
+                <tr>
+                    <td>Налаштування WI-FI мережі</td>
+                    <td class="numeric-value">200</td>
+                </tr>
+                <tr class="tab">
+                    <td>Заміна відеокарти</td>
+                    <td class="numeric-value">200</td>
+                </tr>
+                <tr>
+                    <td>Заміна процесора</td>
+                    <td class="numeric-value">400</td>
+                </tr>
+                <tr class="tab">
+                    <td>Заміна жорсткого диска</td>
+                    <td class="numeric-value">200</td>
+                </tr>
+                <tr>
+                    <td>Підключення принтера</td>
+                    <td class="numeric-value">300</td>
+                </tr>
+                <tr class="tab">
+                    <td>Встановлення Mac OS</td>
+                    <td class="numeric-value">600</td>
+                </tr>
+                
+            </tbody>
+        </table>
+
+    </div>
+</section>
+<!-- services section ends -->
+
+<!-- main starts -->
+<main>
+  
+<!-- newsletter section starts -->
+
+    <section class="newsletter">
+
+        <form action="">
+            <h3>Підпишіться на останні оновлення</h3>
+            <input type="email" name="" placeholder="Введіть свій email" id="" class="box">
+            <input type="submit" value="підписатися" class="btn">
+        </form>
+
+    </section>
+
+
+<!-- newsletter section ends -->
+
+<!-- carts section starts -->
+
+    <section class="carts" id="Товари">
+
+        <h1 class="heading"><span>Хіти продажу</span></h1>
+
+        <div class="swiper carts-slider">
+
+            <div class="swiper-wrapper">
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="images/cart_1.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Кришка матриці для ноутбука Acer Aspire A515-43</h3>
+                        <div class="price">1 980₴<span>2 540₴</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="images/cart_2.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Вентилятор для ноутбуків Acer Nitro 5 AN515-54/AN517-51</h3>
+                        <div class="price">760₴<span>1 540₴</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="images/cart_3.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Термопаста Arctic MX-4 20г MX-8 40Г MX-16 ACTCP00001B</h3>
+                        <div class="price">349₴<span>540₴</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="images/cart_4.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Блок живлення Lenovo 45W роз'єм USB Type-C </h3>
+                        <div class="price">1 719₴<span>2 540₴</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="images/cart_5.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Блок живлення  Asus 120W 19V 5,5мм*2,5мv </h3>
+                        <div class="price">1 640₴<span>2 040₴</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="images/cart_4.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Блок живлення Lenovo 45W роз'єм USB Type-C </h3>
+                        <div class="price">1 719₴<span>2 540₴</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+
+                        </div>
+                    </div>
+                </a>
+
+
+            
+
+            </div>
+
+        </div>
+
+
+        <div class="swiper carts-slider">
+
+            <div class="swiper-wrapper">
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="images/cart_6.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Вентилятор MSI  GS70 GS72 MS-1771 B23322 ax-222 </h3>
+                        <div class="price">1 100₴<span>1 540₴</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="images/cart_2.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Вентилятор для ноутбуків Acer Nitro 5 AN515-54/AN517-51</h3>
+                        <div class="price">760₴<span>1 040₴</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="images/cart_3.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Термопаста Arctic MX-4 20г MX-8 40Г MX-16 ACTCP00001B</h3>
+                        <div class="price">349₴<span> 540₴</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="images/cart_1.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Кришка матриці для ноутбука Acer Aspire A515-43</h3>
+                        <div class="price">1 719₴<span>2 040₴</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="images/cart_5.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Блок живлення  Asus 120W 19V 5,5мм*2,5мv </h3>
+                        <div class="price">1 640₴<span>2 040₴</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="images/cart_2.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Блок живлення Lenovo 45W роз'єм USB Type-C </h3>
+                        <div class="price">1 719₴<span>2 540₴</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+
+                        </div>
+                    </div>
+                </a>
+
+                
+            
+
+            </div>
+
+        </div>
+    </section>
+
+<!-- carts section ends -->
+
+<!-- asistance section starts -->
+
+    <section class="deal">
+
+        <div class="content">
+            <h3>Маєте запитання? Ви можете отримати безкоштовну консультацію</h3>
+            <img src="images/arrow.png" alt="">
+            <div class="log">
+                <input type="email" name="" placeholder="+38(28)266-341130" id="" class="box"> 
+                <a href="#" class="btn">Отримати</a>
+            </div>
+           
+            
+        </div>
+        
+       
+        
+
+    </section>
+
+<!-- asistance section ends -->
+
+<!-- reviews section starts -->
+
+    <section class="reviews" id="Відгуки">
+
+        <h1 class="heading"><span>Відгуки</span></h1>
+
+            <div class="swiper reviews-slider">
+
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide box">
+                        <img src="images/review_1.png" alt="">
+                        <h3>Lara May</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ex reiciendis aperiam molestias earum, dolor quos vero in quis soluta.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <img src="images/review_2.png" alt="">
+                        <h3>Adam Clark</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ex reiciendis aperiam molestias earum, dolor quos vero in quis soluta.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <img src="images/review_3.png" alt="">
+                        <h3>Ethan Mitchell</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ex reiciendis aperiam molestias earum, dolor quos vero in quis soluta.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <img src="images/review_4.png" alt="">
+                        <h3>Caleb Anderson</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ex reiciendis aperiam molestias earum, dolor quos vero in quis soluta.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <img src="images/review_5.png" alt="">
+                        <h3>Jackson Turner</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ex reiciendis aperiam molestias earum, dolor quos vero in quis soluta.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <img src="images/review_6.png" alt="">
+                        <h3>Wyatt Parker</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ex reiciendis aperiam molestias earum, dolor quos vero in quis soluta.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        
+
+    </section>
+
+<!-- reviews section ends -->
+</main>
+<!-- main end -->
+
+<!-- footer starts -->
+<footer>
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>Наші сервіси</h3>
+                <a href="#"><i class="fas fa-map-marker-alt"></i>Київ</a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i>Івано-Франківськ</a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i>Кривий Ріг</a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i>Дніпро</a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i>Миколаїв</a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i>Харків</a>
+            </div>
+
+            <div class="box">
+                <h3>Навігація</h3>
+                <a href="#Головна" ><i class="fas fa-arrow-right"></i>Головна</a>
+                <a href="#Послуги"><i class="fas fa-arrow-right"></i>Послуги</a>
+                <a href="#Товари"><i class="fas fa-arrow-right"></i>Товари</a>
+                <a href="#Відгуки"><i class="fas fa-arrow-right"></i>Відгуки</a>
+              
+            </div>
+
+            <div class="box">
+                <h3>Для користувача</h3>
+                <a href="#"><i class="fas fa-arrow-right"></i>FAQ</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>Реквізити</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>Повернення</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>Обмін</a>
+              
+            </div>
+
+            <div class="box">
+                <h3>Для користувача</h3>
+                <a href="#"><i class="fas fa-phone"></i>+380-(97)-048-48-58</a>
+                <a href="#"><i class="fas fa-envelope"></i>Fixcom.ua@gmail.com</a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i>Кривий ріг</a>
+                <a href=""><img src="images/map.png" class="map" alt=""></a>              
+            </div>
+
+        </div>
+
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+        </div>
+
+        <div class="credit">created by <span>Kyrylo Konovka</span> | ©Fixcom 2019-2023 | all rights reserved!</div>
+
+    </section>
+
+
+</footer>
+<!-- footer ends -->
+
+<!-- loader starts-->
+
+<!-- loader ends-->
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script src="script.js">
+
+</script>
+</body>
+</html>
